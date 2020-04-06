@@ -1,1 +1,82 @@
 remote_theme: allejo/jekyll-docs-theme
+
+name: durst
+
+project:
+  version: 0.1.0
+  download_url: https://github.com/durst-notification/durst/releases
+  download_text: Download
+
+# not yet decided
+# license:
+#   software: MIT License
+#   software_url: https://opensource.org/licenses/MIT
+
+#   docs: CC BY 3.0
+#   docs_url: https://creativecommons.org/licenses/by/3.0/
+
+links:
+  header:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/durst-notification/durst
+  homepage:
+    - title: View on GitHub
+      icon: github
+      brand: true
+      url: https://github.com/durst-notification/durst
+  footer:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/durst-notification/durst
+    - title: Issues
+      icon: bug
+      url: https://github.com/durst-notification/durst/issues?state=open
+
+ui:
+  mode: 'auto' # 'auto', 'dark', 'light'
+  brand:
+    dark: "#00ceff"
+    light: "#a20000"
+  border_color:
+    dark: "#5f5f5f"
+    light: "#dee2e6"
+  header:
+    trianglify: true
+    dark:
+      color1: "#062a48"
+      color2: "#304e67"
+    light:
+      color1: "#080331"
+      color2: "#c28e00"
+  masthead:
+    color:
+      dark: "#fff"
+      light: "#fff"
+    align:
+      homepage: 'center'
+      page: 'left'
+
+social:
+  github:
+    user: durst-notification
+    repo: durst
+  twitter:
+    enabled: false
+    via:
+    hash:
+    account:
+  facebook:
+    enabled: false
+    profileUrl:
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - screenshot.png
