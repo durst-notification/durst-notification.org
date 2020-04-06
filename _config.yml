@@ -49,8 +49,8 @@ ui:
       color1: "#062a48"
       color2: "#304e67"
     light:
-      color1: "#080331"
-      color2: "#c28e00"
+      color1: "#111111"
+      color2: "#404040"
   masthead:
     color:
       dark: "#fff"
@@ -71,12 +71,3 @@ social:
   facebook:
     enabled: false
     profileUrl:
-
-# Build settings
-markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - screenshot.png
